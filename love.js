@@ -633,7 +633,7 @@ function blink(){
    ============================================================ */
 function reset(){
   catState = 'idle';
-  title.textContent = 'Happy Sunday Deena! Do you love me?!';
+  title.textContent = 'Deena, Do you love me?!';
   drawSprite(catCanvas, CAT_IDLE);
   catCanvas.setAttribute('aria-label', 'A little cat holding a heart');
   buttons.hidden = false;
