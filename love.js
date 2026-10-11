@@ -485,7 +485,7 @@ noBtn.addEventListener('focus', dodge);          // keyboard tab
    ============================================================ */
 function sayYes(){
   catState = 'happy';
-  title.textContent = 'Yayyy! I love you ♡';
+  title.textContent = 'Yayyy! I too love you ♡';
   drawSprite(catCanvas, CAT_HAPPY);
   catCanvas.setAttribute('aria-label', 'A happy cat with a bow');
 
@@ -633,7 +633,7 @@ function blink(){
    ============================================================ */
 function reset(){
   catState = 'idle';
-  title.textContent = 'Happy Sunday Deena! May your day be pleasant and full of blessings!';
+  title.textContent = 'Happy Sunday Deena! Do you love me?!';
   drawSprite(catCanvas, CAT_IDLE);
   catCanvas.setAttribute('aria-label', 'A little cat holding a heart');
   buttons.hidden = false;
